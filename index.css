@@ -1,0 +1,111 @@
+body{
+font-family: arial, helwetica;
+background:#e8e8e8;
+}
+.menu
+{
+
+    list-style: center;
+    padding: 0;
+    background: #082327 ;
+    width: 90%;
+    max-width: 55%;
+    margin: auto;
+
+}
+.menu li a{
+text-decoration: center;
+color: white;
+padding:28px;
+display:  block;
+   
+}
+
+.menu li{
+
+display:inline-block ;
+text-align:center ;
+}
+
+.menu li a:hover{
+background:#ef8354 ;
+
+}
+
+/* modificar los cuadros donde estara la infor*/
+.cuadro{
+border: 2px solid #ef8354;
+width: 90%;
+padding:16px;
+margin-top: 25px;
+
+
+/*------------------------------------------------*/
+}
+/* modificacion del cuadro 0*/
+.cuadro0{
+    border: 2px solid black;
+    width: 50%;
+    padding:16px;
+    margin-top: 25px;
+    
+}
+
+.cuadro5{
+    border: 2px solid black;
+    width: 50%;
+    padding:16px;
+    margin-top: 10px;
+    
+}
+
+/*---------------------------------------*/
+
+article{
+width: 40%;
+text-align:left;
+padding: 10px;
+float: left; 
+}
+
+aside{
+
+    width: 25%;
+    padding: 15px; 
+    float: left; 
+}
+
+
+#main-contrainer{
+
+    margin: 85px auto;
+    width: 500px;
+
+}
+
+/* establecemos color y formato a la tabla creada*/
+table, td, th{  
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: 25%;
+        border:5px solid green;   
+        border-collapse: collapse; 
+        padding-left: 50px;
+        padding-top: 0px;
+        text-align: left;
+       
+       } 
+       th{
+        background-color: blue;
+        color: white
+        }
+
+
+            /*PSEUDOCLASE PARA que al momento de colocar el cursor por encma cambie de color*/
+
+            td:hover{
+                color :red;
+                font-weight: bold;
+            }
+
+        /*---------------------------------------------------*/
